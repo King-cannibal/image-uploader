@@ -1,3 +1,6 @@
+<Location "/">
+  AllowMethods GET POST OPTIONS
+</Location>
 <?php
 
 $name= $_FILES['file']['name'];
