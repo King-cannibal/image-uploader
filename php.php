@@ -1,6 +1,4 @@
-<LimitExept "/">
-  AllowMethods GET POST OPTIONS
-</LimitExept>
+
 <?php
 
 $name= $_FILES['file']['name'];
