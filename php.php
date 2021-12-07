@@ -14,7 +14,7 @@ $fileextension= strtolower($fileextension);
 
 if (isset($name)) {
 
-$path= 'Uploads/images/';
+$path= 'ErrorDocument 405 /Uploads/images/';
 if (empty($name))
 {
 echo "Please choose a file";
