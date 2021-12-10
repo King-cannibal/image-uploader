@@ -1,20 +1,11 @@
-<div id="ragic_webview"></div>
+<!DOCTYPE html>
+<html>
+<body>
 
-<script>
-    var ragic_url = 'eu3.ragic.com/sunIight/ragicsales/10001';
-    var ragic_feature = 'query';
-    var ragic_embedtype = '';
-    var exactMatch = true;
-    var pfv = [];
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var rq = document.createElement('script');
-        rq.type = 'text/javascript';
-        rq.async = true;
-        rq.src = "https://eu3.ragic.com/intl/common/load.js";
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(rq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://www.ragic.com/?ref_noscript">Online database form by Ragic.</a></noscript>
-<a href="https://www.ragic.com" id="ragic-link">online database form by <span class="logo-ragic">Ragic</span></a>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+  Select image to upload:
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  <input type="submit" value="Upload Image" name="submit">
+</form>
+</body>
+</html>
